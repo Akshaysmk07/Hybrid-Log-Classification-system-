@@ -9,4 +9,4 @@ python-multipart
 streamlit
 numpy==1.23.5
 pandas==1.5.3
-
+streamlit_option_menu
