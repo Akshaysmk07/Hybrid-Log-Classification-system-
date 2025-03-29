@@ -12,10 +12,6 @@ import os
 # # Get the PORT from the environment variable
 # port = int(os.getenv("PORT", 8501))
 
-
-import os
-os.environ["STREAMLIT_WATCH_FILE"] = "false"
-
 # Set page title and layout
 
 load_dotenv()
