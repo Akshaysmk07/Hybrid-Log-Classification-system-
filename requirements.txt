@@ -7,3 +7,4 @@ pandas==2.0.2
 scikit-learn==1.6.0
 uvicorn
 python-multipart
+streamlit
