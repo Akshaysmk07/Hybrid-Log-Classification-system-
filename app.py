@@ -1,4 +1,5 @@
 import streamlit as st
+from dotenv import load_dotenv
 import pandas as pd
 import joblib  # For loading a trained model (if you have one)
 from streamlit_option_menu import option_menu
@@ -11,6 +12,8 @@ import os
 # # Get the PORT from the environment variable
 # port = int(os.getenv("PORT", 8501))
 # Set page title and layout
+
+load_dotenv()
 st.set_page_config(page_title="Log Classification System", layout="wide")
 st.markdown("""
     <style>
