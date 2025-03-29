@@ -8,8 +8,8 @@ from processor_bert import classify_with_bert
 from processor_llm import classify_with_llm
 import os
 
-# Get the PORT from the environment variable
-port = int(os.getenv("PORT", 8501))
+# # Get the PORT from the environment variable
+# port = int(os.getenv("PORT", 8501))
 # Set page title and layout
 st.set_page_config(page_title="Log Classification System", layout="wide")
 st.markdown("""
@@ -170,6 +170,6 @@ elif selected == "log classifier page":
 
 
     
-if __name__ == "__main__":
-    import subprocess
-    subprocess.run(["streamlit", "run", "app.py", "--server.port", str(port), "--server.address", "0.0.0.0"])
+# if __name__ == "__main__":
+#     import subprocess
+#     subprocess.run(["streamlit", "run", "app.py", "--server.port", str(port), "--server.address", "0.0.0.0"])
